@@ -1,0 +1,23 @@
+<!-- myapp/templates/my_template.html -->
+
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rekruto</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="container__text">
+            <h1>Hello, {{ name }}!</h1>
+            <p  class="container__p"> <em>{{ message }}!</em></p>
+        </div> 
+       
+    </div>
+  
+</body>
+</html>

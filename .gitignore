@@ -1,0 +1,5 @@
+/venv
+/rekrutodjango/db.sqlite3
+/rekrutodjango/rekrutodjango/__pycache__/
+/rekrutodjango/message/migrations
+/rekrutodjango/message/__pycache__/
